@@ -9,3 +9,5 @@ pip install -r requirements.txt
 pytest tests/test_red_black_tree.py -v
 pytest tests/test_red_black_tree_performance.py -v
 ```
+
+![red-black-tree performance](rbt_performance.png)
