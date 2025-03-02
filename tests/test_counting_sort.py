@@ -1,6 +1,6 @@
 import random
 
-from red_black_tree.counting_sort import counting_sort
+from counting_sort.counting_sort import counting_sort
 
 def test_counting_sort():
     sizes = [1, 5, 20]
