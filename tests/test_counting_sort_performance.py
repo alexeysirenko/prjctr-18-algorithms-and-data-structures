@@ -37,7 +37,7 @@ def test_counting_sort_performance():
     plt.plot(sizes, sort_times_per_size, label="Sort K=10", marker="o")
     plt.plot(sizes, sort_times_per_delta, label="Sort K=100", marker="^")
 
-    plt.xlabel("Number of Elements")
+    plt.xlabel("Number of Elements (N)")
     plt.ylabel("Time (seconds)")
     plt.title("Counting Sort performance")
     plt.legend()

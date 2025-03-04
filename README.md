@@ -22,6 +22,6 @@ pytest tests/test_counting_sort_performance.py -v -s
 
 ### Figure out when Counting Sort doesn’t perform
 
-Counting sort is memory-inefficient when difference between min and max value is much larger than number of elements
+Counting sort is memory-inefficient when difference between min and max value (K) is much larger than number of elements (N)
 
 ![red-black-tree performance](counting_sort_performance.png)
